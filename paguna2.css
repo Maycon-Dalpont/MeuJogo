@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #0f0f0f, #1c1c1c);
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #111;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #ff4747;
+    letter-spacing: 2px;
+  }
+  
+  .hero {
+    padding: 50px 20px;
+    text-align: center;
+    background: url('https://images.unsplash.com/photo-1573497019453-04ba529f0b8a') center/cover no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    font-style: italic;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .section h2 {
+    color: #ff4747;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .section p {
+    font-size: 1.1em;
+    color: #ddd;
+  }
+  
+  .play-area {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #222;
+    border-top: 2px solid #444;
+  }
+  
+  .play-area button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #ff4747;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .play-area button:hover {
+    background-color: #e63c3c;
+  }
+  
+  footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+    border-top: 2px solid #444;
+  }
+  
+  /* Botão */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
