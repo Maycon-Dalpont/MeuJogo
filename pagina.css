@@ -12,6 +12,58 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+  }
+  
+  /* Botão de menu */
+  .botao-mobile {
+    display: none;
+    padding: 0.5rem 1rem;
+    background-color: #c70f0f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Menu escondido inicialmente */
+  .menu-mobile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    background: #444;
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  
+  /* Itens do menu */
+  .menu-mobile a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  /* Mostrar botão no celular */
+  @media (max-width: 768px) {
+    .botao-mobile {
+      display: block;
+    }
+  }
+  
+
 /* Estilização do cabeçalho */
 header {
     background: rgba(0, 0, 0, 0.8);
